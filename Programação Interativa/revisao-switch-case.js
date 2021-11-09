@@ -13,18 +13,18 @@ function qualMes(valor) {
             console.log('Abril');
             break;
         case 5:
-            console.log('maio');
+            console.log('Maio');
             break;
         case 6:
-            console.log('Janeiro');
+            console.log('Junho');
+            break;
+        case 7:
+            console.log('Julho');
+            break;
+        case 8:
+            console.log('Agosto');
             break;
         case 1:
-            console.log('Janeiro');
-            break;
-        case 1:
-            console.log('Janeiro');
-                                        break;
-                                        case 1:
                                             console.log('Janeiro');
                                             break;
                                             case 1:
