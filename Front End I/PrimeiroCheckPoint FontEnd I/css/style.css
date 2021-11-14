@@ -71,7 +71,7 @@ ul {
 
 
 #corpo::after {
-    height: 1400px;
+    height: 1300px;
     background-image: url("/img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -102,7 +102,7 @@ ul {
     position: fixed;
     right: 0px;
     left: 0px;
-    top: 800px;
+    top: 700px;
 }
 
 .icones {
