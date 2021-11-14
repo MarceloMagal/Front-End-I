@@ -65,7 +65,10 @@ ul {
     font-size: 16px;
     margin: 20px;
     padding: 10px;
+
 }
+
+
 
 #corpo::after {
     height: 1400px;
