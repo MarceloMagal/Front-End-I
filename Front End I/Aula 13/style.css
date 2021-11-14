@@ -1,0 +1,41 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+body::after{
+    background-image: url("OIP.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+        content: "";
+     
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+    
+    
+}
+
+fieldset{
+    color: rgb(151, 97, 16);
+    border-color: rgb(13, 138, 13);
+    border: solid;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+button{
+    padding: 5px;
+    margin: 10px;
+    background-color: deepskyblue;
+}
+
+.div-buttons{
+    float: right;
+}

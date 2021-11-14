@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/stylecadastrar.css">
+        <title>Cadastro e-mail list</title>
+    </head>
+
+<body id="corpo">
+    <header id="cabecalho">
+        <div class="div-header">
+            <h1 id="titulo">Cadastre se para receber informações sobre a cidade</h1>        
+        </div>
+        <div class="round-button">
+            <div class="round-button-circle"><a href="indesx.html" class="round-button">Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="cadastrar-principal">
+        
+        <form action="/cadastrar" name="cadastro-usuario">
+        <div id="cadastrar">
+            <fieldset> <!--um grupo/conjunto de campos-->
+                <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="nome">Nome :</label>
+                <input type="text" name="nome" id="nome" placeholder="insira o nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="insira o e-mail">
+            </div>
+
+            <div>
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" id="senha" placeholder="digite a senha">
+            </div>
+
+            <div>
+                <label for="idade">Idade :</label>
+                <input type="number" name="idade" id="idade" placeholder="insira sua idade">
+            </div>
+
+             </fieldset>   
+
+            </fieldset>
+        
+            <fieldset form="cadastro-usuario">
+                <legend>Sugestões:</legend>
+    
+    
+                <div>
+                    <label for="sugestoes">Sugestões:</label>
+                </div>
+                <textarea name="sugestoes" id="sugestoes" cols="100" rows="10"></textarea>
+    
+            </fieldset>
+    
+            <div class="div-buttons">
+                <button type="reset">Limpar</button>
+                <button type="submit">cadastrar</button>
+            </div>             
+        </div>
+        </form>
+        
+    </main>
+
+    <footer id="rodape">
+        <a href="https://www.instagram.com/prefeituradegoiania/
+        " target="_blank"><img src="./img/instagram.png" class="icones"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./img/youtube.png" class="icones"></a>
+
+        
+    </footer>
+
+
+</body></html>

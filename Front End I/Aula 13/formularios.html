@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de </h1>
+   
+    <form action="/cadastrar" name="cadastro-usuario">
+        <fieldset>  <!--um grupo/conjunto de campos-->
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="nome">Nome :</label>
+                <input type="text" name="nome" id="nome" placeholder="insira o nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="insira o e-mail">
+            </div>
+
+            <div>
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" id="senha" placeholder="digite a senha">
+            </div>
+
+            <div>
+                <label for="idade">Idade :</label>
+                <input type="number" name="idade" id="idade" placeholder="insira sua idade">
+            </div>
+        
+        </fieldset>
+        
+        <fieldset form="cadastro-usuario">
+            <legend>Inscrição</legend>
+
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso">
+                <option value="1">CTD</option>
+                <option value="2">Front End I</option>
+                <option value="3">Programação Interativa</option>
+
+            </select>
+
+            <div>
+                <label for="minibio">Minibio:</label>
+            </div>
+            <textarea name="minibio" id="minibio" cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+        <div class="div-buttons">
+            <button type="reset">Limpar</button>
+            <button type="submit">cadastrar</button>
+        </div>
+    
+    </form>
+
+
+   
+</body>
+</html>
