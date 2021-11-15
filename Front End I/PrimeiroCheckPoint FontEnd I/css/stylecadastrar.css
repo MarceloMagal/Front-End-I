@@ -33,14 +33,14 @@ fieldset{
 
 .div-buttons{
 
-    margin-top: 10px;
+    margin-left: 50px;
 
-    padding: 10px;
+    padding: 0px;
 
 }
 
 #titulo {
-    padding: 10px;
+    padding: 20px;
     position: fixed;
     right: 0px;
     left: 0px;
@@ -48,7 +48,7 @@ fieldset{
 
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 5px;
     background-color: rgb(105, 138, 182);
 }
@@ -80,9 +80,12 @@ fieldset{
     height: 60px;
     background-color: rgb(105, 138, 182);
     position: fixed;
-    right: 0px;
-    left: 0px;
-    top: 660px;
+/*    position: absolute;*/
+    /*right: 0px;*/
+    /*left: 0px;*/
+    /*top: 660px;*/
+    bottom: 0px;
+    width: 100%;
 }
 
 .icones {
