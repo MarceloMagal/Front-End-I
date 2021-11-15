@@ -48,6 +48,7 @@ span {
     margin-top: 65px;
 }
 
+html, body {height:100%;}
 
 .div-video{
     box-sizing: border-box;  
@@ -65,18 +66,21 @@ ul {
     font-size: 16px;
     margin: 20px;
     padding: 10px;
-
+    padding-bottom: 120px;
+    
 }
 
 
 #corpo::after {
-    height: 1300px;
-    background-image: url("/img/background.jpg");
+    /*height: 1300px;*/
+    height: 100%;
+    /*background-image: url("/img/background.jpg");*/
+    background-image: url("https://marcelomagal.github.io/Front-End-I/Front%20End%20I/PrimeiroCheckPoint%20FontEnd%20I/img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: lightsteelblue;
-  
+
     content: "";
     opacity: 0.5;
     top: 0;
@@ -98,9 +102,12 @@ ul {
     height: 60px;
     background-color: rgb(105, 138, 182);
     position: fixed;
-    right: 0px;
-    left: 0px;
-    top: 660px;
+/*    position: absolute;*/
+    /*right: 0px;*/
+    /*left: 0px;*/
+    /*top: 660px;*/
+    bottom: 0px;
+    width: 100%;
 }
 
 .icones {
