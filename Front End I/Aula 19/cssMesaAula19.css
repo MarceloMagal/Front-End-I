@@ -1,0 +1,45 @@
+h1  {
+    color:  white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 250px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    
+}
+
+
+.containerCard {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.itemconteiner{
+    border-radius: 10px;
+    margin: 1%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemconteiner p {
+    color: white;
+}
+
+.itemconteiner h4 {
+    color: white;
+}

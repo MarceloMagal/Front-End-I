@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Formulário de cadastro</title>
+    </head>
+
+<body id="corpo">
+    <header id="cabecalho">
+        <div>
+            <h1 id="titulo">Formulário de cadastro</h1>
+        </div>
+       <!-- <div class="round-button">
+            <div class="round-button-circle"><a href="cadastro.html" class="round-button">Cadastro</a> </div>
+        </div>  -->
+        
+    </header>
+
+    <main id="principal">
+        <div>
+            <p id="intro"><strong></strong>  </p>
+            </div>
+                <form action="/cadastrar" name="cadastro-usuario">
+                    <fieldset>
+                        <div class="div-inputs">
+                            <label for="nome"><strong>Nome :</strong></label>
+                            <input type="text" name="nome" id="nome" placeholder="insira o nome (Máx. 100 posições)" maxlength="100" required>
+                    
+                            <label for="email"><strong>E-mail:</strong></label>
+                            <input type="email" name="email" id="email" placeholder="insira o e-mail" required>
+         
+                            <label for="telefone"><strong>Telefone :</strong></label>
+                            <input type="number" name="telefone" id="telefone" placeholder="digite um número para contato" required>
+                       
+                            <label for="idade"><strong>Data nascimento :</strong> </label>
+                            <input type="date" name="idade" id="idade" required>
+                        </div>
+
+                    </fieldset>
+
+
+                    <fieldset form="cadastro-usuario" id="parte2">
+
+                      <!--  <legend>Conte-nos sobre você: </legend>-->
+
+                        <div id="maioridade">
+                            <div>
+                                <input type="radio" name="maioridade" id="maioridade" value="Maiordeidade">
+                                <label for="maioridade">Sou maior de idade?</label>                            
+                                <input type="radio" name="maioridade" id="maioridade" value="Menordeidade">
+                                <label for="maioridade">Sou menor de idade?</label>                            
+                            </div>
+                        </div>
+
+                        <fieldset form="cadastro-usuario" id="fieldset-select">
+                            <label for="">Pontos de interesse na cidade:</label>
+                            <select name="interesse" id="interesse" required>
+                                <option value="parque">Parques</option>
+                                <option value="cultura">Cultura</option>
+                                <option value="bares">Bares/Restaurantes</option>
+                                <option value="baladas">Baladas</option>
+                                <option value="auto">Automobilismo/Motociclismo</option>
+                                <option value="ciclo">Ciclismo</option>
+                                <option value="cinema">Cinemas</option>
+                                <option value="shop">Shoppings</option>
+
+                            </select>
+                        </fieldset>
+
+                        <div class="situacao">
+                            <div id="p-situacao"><p>Situação na cidade:</p></div>
+                        
+                            <div class="situacao2">
+                                <label for="turista">Turista</label>                       
+                                <input type="checkbox" name="turista" id="condicao" value="Turista">
+                                <label for="residente">Residente</label>
+                                <input type="checkbox" name="residente" id="condicao" value="Residente">
+                                <label for="estudante">Estudante</label>
+                                <input type="checkbox" name="estudante" id="condicao" value="Estudante">
+                            </div>
+                        </div>
+                        
+
+
+                        
+                    
+            
+                    </fieldset>
+            
+
+                    <div class="div-buttons">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Cadastrar</button>
+                    </div>                    
+                </form>
+            <div>
+
+        </div>
+    </main>
+
+    <footer id="rodape">
+    <div>
+        <a href="https://www.instagram.com/prefeituradegoiania/
+        " target="_blank"><img src="./img/instagram.png" class="icones"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./img/youtube.png" class="icones"></a>
+        
+    </div>    
+    </footer>
+
+
+</body></html>
