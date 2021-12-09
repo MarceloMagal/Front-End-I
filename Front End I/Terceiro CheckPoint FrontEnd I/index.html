@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>NóisFlix</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="img/nois-logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Filmes">Filmes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Series">Séries</a>
+                    </li>
+                    <li class="nav-item">                        
+                        <a class="nav-link"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="#F">Entrar</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+        </div>
+    </header>
+
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <img src="img/user.jfif">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">E-mail:</label>
+              <input type="email" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Senha:</label>
+              <input type="password" class="form-control" id="recipient-name">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+         <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button> -->
+          <button type="button" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="parallax" id="banner" >
+            <p> Confira a maior coletânea de filmes e séries que a Nóis tem a lhe oferecer.</p>
+        </div>
+    </div>
+
+
+    <!--    Filmes     -->    
+        <div class="title">
+            <h2 id="Filmes"> Filmes </h2>
+        </div>
+
+    <div id="itens">
+        <div class="container border" ms-5 p-5>
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie1.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie2.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie3.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie4.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie5.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="img/movie6.jpg" alt="Imagem de capa do card">
+                        <div class="card-body border">
+                          <h5 class="card-title">Filme</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                          <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="parallax" id="banner2" >
+          <p> Confira a maior coletânea de filmes e séries que a Nóis tem a te oferecer.</p>          
+      </div>
+  </div>
+
+
+  
+<!--    Séries     -->            
+            
+<div class="title">
+  <h2 id="Series"> Séries </h2>
+</div>
+
+<div id="itens">
+<div class="container border" ms-5 p-5>
+  <div class="row">
+      <div class="col-lg-3 col-md-4">
+          <div class="card" >
+              <img class="card-img-top" src="img/movie1.jpg" alt="Imagem de capa do card">
+              <div class="card-body border">
+                <h5 class="card-title">Título Série</h5>
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+          <div class="card" >
+              <img class="card-img-top" src="img/movie2.jpg" alt="Imagem de capa do card">
+              <div class="card-body border">
+                <h5 class="card-title">Título Série</h5>
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                <button type="button" class="btn btn-outline-primary button ms-lg-2">Mais detalhes</button>
+              </div>
+          </div>
+      </div>
+  </div>  
+</div>
+
+
+
+
+
+
+
+
+<!--    Footer     -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="alunos" style="width: 100rem;">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="aluno-1">
+                            <p class="nome-aluno">Gilvan Linhares</p>
+                            <p class="descricao-aluno">Responsável pelo desenvolvimento desta página</p>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin-logo.png" class="social"></a>
+                            <a href="https://www.github.com/" target="_blank"><img src="img/github-logo.png" class="social"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="aluno-2">
+                            <p class="nome-aluno">Kelly Kanegae</p>
+                            <p class="descricao-aluno">Responsável pelo desenvolvimento desta página</p>
+                            <a href="https://www.linkedin.com/in/kellykanegae/" target="_blank"><img src="img/linkedin-logo.png" class="social"></a>
+                            <a href="https://github.com/kellykanegae/" target="_blank"><img src="img/github-logo.png" class="social"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="aluno-3">
+                            <p class="nome-aluno">Marcelo Magalhães</p>
+                            <p class="descricao-aluno">Responsável pelo desenvolvimento desta página</p>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin-logo.png" class="social"></a>
+                            <a href="https://www.github.com/" target="_blank"><img src="img/github-logo.png" class="social"></a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="info">
+                <p>Checkpoint 3 desenvolvido em 2021.</p>
+            </div>
+            
+        </div>
+
+    </footer>
+
+   <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+* {
+  color: #3d1904;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  background-color: #808080bb;
+}
+
+#titulo {
+  padding: 10px;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-weight: 5px;
+  background-color: #698ab6;
+}
+
+.subtitulo {
+  padding: 10px;
+  color: #3d2929;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 200;
+}
+
+#intro {
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-style: oblique;
+  /*position: absolute;*/
+  margin-top: 65px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.div-video {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 0px;
+  /*position: absolute;*/
+  width: 150px;
+  height: 130px;
+  padding: 220px;
+}
+
+ul {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 120px;
+}
+
+#corpo::after {
+  /*height: 1300px;*/
+  height: 100%;
+  /*background-image: url("/img/background.jpg");*/
+  background-image: url("https://marcelomagal.github.io/Front-End-I/Front%20End%20I/PrimeiroCheckPoint%20FontEnd%20I/img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: lightsteelblue;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#principal {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#rodape {
+  text-align: center;
+  padding: 10px;
+  height: 60px;
+  background-color: #698ab6;
+  position: fixed;
+  /*    position: absolute;*/
+  /*right: 0px;*/
+  /*left: 0px;*/
+  /*top: 660px;*/
+  bottom: 0px;
+  width: 100%;
+}
+
+.icones {
+  margin: 0px;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.round-button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 80px;
+  border: 0px solid #f5f5f5;
+  border-radius: 60%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: #555777;
+  -webkit-box-shadow: 0 0 3px gray;
+          box-shadow: 0 0 3px gray;
+  font-size: 10px;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 5px;
+}
+
+.round-button:hover {
+  background: #777555;
+}
+
+@media (max-width: 768px) {
+  .div-video {
+    /* box-sizing: border-flex;  */
+    margin-top: 0px;
+    /*position: absolute;*/
+    width: 50px;
+    height: 30px;
+    padding: 50px;
+    width: 730px;
+    height: 320px;
+  }
+  #titulo {
+    padding: 22px;
+    position: absolute;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

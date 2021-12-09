@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 5px;
+    width: 50%;
+    
+}
+
+
+@media(min-width: 280px) {
+    #banner, #banner2 {
+        width: 100%;
+        height: vh;       
+        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero-original.jpg);
+    }
+
+    #banner2 {
+        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero.jpg);
+    }
+}
+
+
+#banner p, #banner2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 700px;
+    color: #FFFFFF;
+    padding: 40px;
+    align-items: center;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card-img-top {
+border-radius: 12%;
+
+}
+
+.card-body {
+    border-radius: 12%;
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.alunos {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nome-aluno {
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.descricao-aluno {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+}
+
+.info {
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; 
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+header:hover{
+    transition: all 0.4s ease;
+    color: rgb(45, 9, 146);
+    text-shadow: 3px 3px 20px;
+}
+
+  .modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+  }
+
+  .parallax {
+    /* The image used */
+   /* background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero-original.jpg);*/
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
