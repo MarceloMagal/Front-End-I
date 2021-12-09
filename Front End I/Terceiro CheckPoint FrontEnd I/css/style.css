@@ -25,7 +25,7 @@ body {
     #banner, #banner2 {
         width: 100%;
         height: vh;       
-        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero-original.jpg);
+        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(./img/background-hero-original.jpg);
     }
 
     #banner2 {
