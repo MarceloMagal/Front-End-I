@@ -24,7 +24,7 @@ body {
     #banner, #banner2 {
         width: 100%;
         height: vh;       
-        background-image:  url(/img/background-hero-original.jpg); 
+        background-image:  url(https://github.com/MarceloMagal/Front-End-I/blob/master/Front%20End%20I/Terceiro%20CheckPoint%20FrontEnd%20I/img/background-hero-original.jpg); 
     }
 
     #banner2 {
