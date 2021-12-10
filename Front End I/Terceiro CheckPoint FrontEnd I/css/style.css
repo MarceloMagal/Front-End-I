@@ -17,7 +17,6 @@ body {
 .navbar-brand {
     padding: 5px;
     width: 50%;
-    
 }
 
 
@@ -25,11 +24,11 @@ body {
     #banner, #banner2 {
         width: 100%;
         height: vh;       
-        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(./img/background-hero-original.jpg);
+        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(https://github.com/MarceloMagal/Front-End-I/blob/master/Front%20End%20I/Terceiro%20CheckPoint%20FrontEnd%20I/img/background-hero-original.jpg); 
     }
 
     #banner2 {
-        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero.jpg);
+        background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(https://github.com/MarceloMagal/Front-End-I/blob/master/Front%20End%20I/Terceiro%20CheckPoint%20FrontEnd%20I/img/background-hero.jpg);
     }
 }
 
@@ -120,15 +119,21 @@ header:hover{
     text-shadow: 3px 3px 20px;
 }
 
-  .modal > div {
+button:hover{
+    transition: all 0.4s ease;
+    color: rgb(45, 9, 146);
+    text-shadow: 3px 3px 20px;
+}
+
+.modal > div {
     width: 400px;
     position: relative;
     margin: 10% auto;
     padding: 15px 20px;
     background: #fff;
-  }
+}
 
-  .parallax {
+.parallax {
     /* The image used */
    /* background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero-original.jpg);*/
   
@@ -140,4 +145,4 @@ header:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
