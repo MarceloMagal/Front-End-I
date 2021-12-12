@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    -webkit-box-sizing: border-box;    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,8 +18,9 @@ body {
 .navbar-brand {
     padding: 5px;
     width: 50%;
+    cursor: pointer;
+    
 }
-
 
 @media(min-width: 280px) {
     #banner, #banner2 {
@@ -31,6 +33,7 @@ body {
         background-image:  url("https://github.com/MarceloMagal/Front-End-I/blob/master/Front%20End%20I/Terceiro%20CheckPoint%20FrontEnd%20I/img/background-hero.jpg?raw=true");
     }
 }
+
 
 
 #banner p, #banner2 p{
@@ -93,6 +96,7 @@ footer {
 .social {
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .info {
@@ -108,10 +112,11 @@ header {
     top: 0; 
     z-index: 999;
     width: 100%;
-    text-align: center;
 }
 
-
+#header #logo {
+    width: 130px;
+  }
 
 header:hover{
     transition: all 0.4s ease;
@@ -119,21 +124,15 @@ header:hover{
     text-shadow: 3px 3px 20px;
 }
 
-button:hover{
-    transition: all 0.4s ease;
-    color: rgb(45, 9, 146);
-    text-shadow: 3px 3px 20px;
-}
-
-.modal > div {
+  .modal > div {
     width: 400px;
     position: relative;
     margin: 10% auto;
     padding: 15px 20px;
     background: #fff;
-}
+  }
 
-.parallax {
+  .parallax {
     /* The image used */
    /* background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.493)), url(/img/background-hero-original.jpg);*/
   
@@ -145,4 +144,247 @@ button:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+
+
+  .parallax h1 {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 64px;
+    color: #E51B3E;
+    padding: 20% 0 0 10%;
+  }
+  
+  .parallax p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    padding: 0 10% 10% 10%;
+    
+  }
+
+  .banner-text {
+   margin-top:  150px;   
+  }
+  
+.parallax .banner-button {    
+    width: 310px;
+    height: 70px;
+    background: rgba(51, 187, 105, 0.05);
+    border: 1px solid #33BB69;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .parallax .banner-button:hover {
+    background-color: #33BB69;
+    cursor: pointer;
+  }
+
+  
+.modal > div {
+    width: 95%;
+    border-radius: 12px;
+  }
+  
+  .modal > div .modal-content {
+    border: 0;
+  }
+  
+  .modal > div .modal-header {
+    border: 0;
+  }
+  
+  .modal > div .modal-footer {
+    border: 0;
+  }
+  
+  .modal > div .modal-logo {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .modal > div input {
+    border: 1px solid #A4A4A4;
+    border-radius: 12px;
+  }
+  
+  .modal > div .form-group {
+    width: 90%;
+    border: 0;
+    margin: auto;
+  }
+  
+  .modal-button {
+    width: 90%;
+    height: 60px;
+    background: #1b3479;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 12px;
+    border: 0;
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+  }
+  
+  .modal-button:hover {
+    background-color: #0f30e9;
+    cursor: pointer;
+  }
+
+
+  .card {
+    border-radius: 12px;
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 490px;
+    border: 0;
+    -webkit-box-shadow: rgba(128, 128, 128, 0.5) 5px 5px 15px;
+            box-shadow: rgba(128, 128, 128, 0.5) 5px 5px 15px;
+    margin-bottom: 20%;
+  }
+
+  .card .card-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .card .card-text {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+  .card .card-img-top {
+    width: 100%;
+    border-radius: 12px;
+    z-index: 1;
+  }
+  
+  .card .card-body {
+    border-radius: 12px;
+    background-color: #F4F4F4;
+    position: flex;
+    top: -5em;
+    z-index: 2;
+  }
+
+  .card .card-button {
+  width: 80%;
+  height: 40px;
+  background: #1b3479;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
 }
+
+.card .card-button:hover {
+  background-color: #344dda;
+  cursor: pointer;
+}
+
+
+
+.movie-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .movie-info .movie-info-item:nth-child(1) {
+    padding-right: 150px;
+    padding-bottom: 20px;
+  }
+
+  .movie-info .movie-info-item:nth-child(2) {
+    padding-bottom: 20px;
+  }
+
+  .movie-trailer-titulo {
+    margin-top: 20px;
+  }
+  
+  .movie-iframe {
+    height: 300px;
+    margin: 10px 0 50px;
+  }
+  .movie-banner {
+    width: 100%;
+    height: 1280px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../img/banner-movie-detail-duna.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/banner-movie-detail-duna.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .movie-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  @media (min-width: 1280px) {
+    .movie-info {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+    }
+  }
+
+  .estrelas{
+      width: 15px;
+      height: 15px;
+      display: flex;
+      margin-bottom: 30px;      
+  }
